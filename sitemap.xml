@@ -18,16 +18,22 @@
   </url>
   
   <url>
+    <loc>https://takak22.github.io/blog/tags/</loc>
+    <lastmod>2020-09-03T01:24:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://takak22.github.io/blog/tags/%E6%97%A5%E8%A8%98/</loc>
+    <lastmod>2020-09-03T01:24:03+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://takak22.github.io/blog/posts/my-first-post/</loc>
     <lastmod>2020-08-28T22:57:04+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://takak22.github.io/blog/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://takak22.github.io/blog/tags/</loc>
   </url>
   
 </urlset>
