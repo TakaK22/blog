@@ -6,10 +6,32 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 03 Sep 2020 01:24:03 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2020 00:41:35 +0900</lastBuildDate>
     
 	<atom:link href="https://takak22.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MacBookのターミナルがzshになった</title>
+      <link>https://takak22.github.io/blog/posts/post_20201015_004135/</link>
+      <pubDate>Thu, 15 Oct 2020 00:41:35 +0900</pubDate>
+      
+      <guid>https://takak22.github.io/blog/posts/post_20201015_004135/</guid>
+      <description>Macの再起動をしてターミナルを開いたらzshを使えとメッセージが出ていた
+変更方法に従って変更した
+zsh を Mac のデフォルトシェルとして使う
+bashの設定はそのままだと引き継がれないようなのでそのうち設定を移植しようと思う</description>
+    </item>
+    
+    <item>
+      <title>Windows10にSpringFrameworkの開発環境を作る</title>
+      <link>https://takak22.github.io/blog/posts/post_20200930_203800/</link>
+      <pubDate>Wed, 30 Sep 2020 20:38:43 +0900</pubDate>
+      
+      <guid>https://takak22.github.io/blog/posts/post_20200930_203800/</guid>
+      <description>概略 来月から仕事で SpringFramework を使う事になった。自宅で動作検証等できるように開発環境を作っておこうと思う。
+環境 ハード  CPU: Intel Core i7-7700K @4.20GHz メモリ: 16GB  OS  hostOS: Windows 10 Pro バージョン:2004 ビルド:19041.450  手順 手順をまとめようと思ったが、以前に作った環境が残っていたので適当にプロジェクトを作って遊んだ</description>
+    </item>
     
     <item>
       <title>Hello World</title>
