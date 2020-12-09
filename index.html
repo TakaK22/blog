@@ -6,7 +6,7 @@
     
     <title>My New Hugo Site</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.79.0" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -35,7 +35,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://takak22.github.io/blog/" />
-<meta property="og:updated_time" content="2020-10-15T00:41:35+09:00" />
+<meta property="og:updated_time" content="2020-12-10T02:04:09+09:00" />
 <meta itemprop="name" content="My New Hugo Site">
 <meta itemprop="description" content="">
 <meta name="twitter:card" content="summary"/>
@@ -128,6 +128,35 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="https://takak22.github.io/blog/posts/post_20201210_020408/" class="color-inherit dim link">
+            Visual Studio CodeでPlantUmlのプレビューができなくなった
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          久しぶりにPlantoUMLを触って見ようと思ってサンプルコードを実行してみたらプレビューが出来なくなっていた
+version  macOS: Big Sur 11.0.1 Visual Studo Code:1.51.1 PlantUML: 2.14.0  PlantUMLプレビューを行うと以下のエラーが出た
+javaが見つかりません! javaをインストール済みの場合は、PATH環境変数にjava binへのパスを追加してください。 または&quot;plantuml.java &quot;でjava実行可能パスを設定してください。 vscode の設定を開きplantuml.javaで検索すると未設定だった
+ターミナルからJavaコマンドが使えるか確認してみる
+% java --version openjdk 15.0.1 2020-10-20 OpenJDK Runtime Environment (build 15.0.1+9) OpenJDK 64-Bit Server VM (build 15.0.1+9, mixed mode, sharing) homebrewでjavaの更新をかけてから動かなくなった気がするので状態を確認してみる
+% brew info java Warning: Treating java as a formula. openjdk: stable 15.0.1 (bottled) [keg-only] Development kit for the Java programming language https://openjdk.java.net/ /usr/local/Cellar/openjdk/15.0.1 (614 files, 324.9MB) Poured from bottle on 2020-11-04 at 21:15:17 From: https://github.
+        </div>
+          <a href="https://takak22.github.io/blog/posts/post_20201210_020408/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="https://takak22.github.io/blog/posts/post_20201015_004135/" class="color-inherit dim link">
             MacBookのターミナルがzshになった
             </a>
@@ -172,37 +201,18 @@ bashの設定はそのままだと引き継がれないようなのでそのう�
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://takak22.github.io/blog/posts/hello/" class="color-inherit dim link">
-            Hello World
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          前からやってみたかった技術ブログを作ってみた。
-これから何かしら気になる事があるたび記録していこうと思う。
-        </div>
-          <a href="https://takak22.github.io/blog/posts/hello/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
       
       <section class="w-100">
         <h1 class="f3">More</h1>
         
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="https://takak22.github.io/blog/posts/hello/" class="link black dim">
+              Hello World
+            </a>
+          </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="https://takak22.github.io/blog/posts/my-first-post/" class="link black dim">
